@@ -1,5 +1,5 @@
 SELECT
 negative_reactions
 FROM reactions_publication
-Order BY negative_reactions DESC
+Order BY date DESC
 LIMIT 1;
